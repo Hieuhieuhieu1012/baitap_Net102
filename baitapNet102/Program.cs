@@ -7,8 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using ClosedXML;
 using ClosedXML.Excel;
-
-
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Text;
 
 
 namespace baitapNet102
@@ -147,5 +149,7 @@ namespace baitapNet102
 				workbook.SaveAs(filePath);
 			}
 		}
+
+		
 	}
 }
